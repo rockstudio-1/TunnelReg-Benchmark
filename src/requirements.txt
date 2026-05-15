@@ -1,0 +1,21 @@
+# Python dependencies for the SpinNet and GeoTransformer evaluation scripts.
+#
+# PyTorch must match your local CUDA version. The pinned versions below are
+# known-good; feel free to relax them. Install PyTorch separately following
+# https://pytorch.org/get-started/ before installing the rest, e.g.:
+#
+#     pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 \
+#         --extra-index-url https://download.pytorch.org/whl/cu117
+#     pip install -r src/requirements.txt
+#
+# GeoTransformer additionally requires its own package (installed from the
+# submodule):
+#
+#     pip install -e third_party/GeoTransformer
+#
+numpy>=1.21,<2.0
+scipy>=1.7
+scikit-learn>=1.0
+open3d>=0.15
+tqdm>=4.62
+# PyTorch is intentionally NOT pinned here; install it manually (see above).
