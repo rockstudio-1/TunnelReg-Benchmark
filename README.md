@@ -106,7 +106,7 @@ its own README:
 The TunnelReg dataset can be downloaded from Baidu Netdisk:
 
 - **Link**: <https://pan.baidu.com/s/1fEGAhgOTSODj-H8JIpWXCg>
-- **Extraction code**: `It will be provided after the article is accepted.`
+- **Extraction code**: `It will be provided after the manuscript is accepted.`
 
 Unpack everything into `EvalData/`:
 
